@@ -1,2 +1,7 @@
 
 ClionProject/.idea/workspace.xml
+*.iml
+*.xml
+ClionProject/debug/CMakeFiles/clion-Debug-log.txt
+ClionProject/default_build/CMakeFiles/clion-build-log.txt
+ClionProject/final_build/CMakeFiles/clion-Final-log.txt
