@@ -1,0 +1,6 @@
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=C:/MinGW/bin/make.exe -DCMAKE_C_COMPILER=C:/MinGW/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/MinGW/bin/g++.exe -G "MinGW Makefiles" -S C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject -B C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\cmake-build-test
+-- Configuring done
+CMake Error: Cannot determine link language for target "Source".
+CMake Error: CMake can not determine linker language for target: Source
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.
