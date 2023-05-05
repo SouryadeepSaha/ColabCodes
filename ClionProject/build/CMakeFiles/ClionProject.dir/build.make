@@ -91,6 +91,7 @@ ClionProject_EXTERNAL_OBJECTS =
 
 ClionProject.exe: CMakeFiles/ClionProject.dir/main.cpp.obj
 ClionProject.exe: CMakeFiles/ClionProject.dir/build.make
+ClionProject.exe: source/libSource.a
 ClionProject.exe: CMakeFiles/ClionProject.dir/linkLibs.rsp
 ClionProject.exe: CMakeFiles/ClionProject.dir/objects1
 ClionProject.exe: CMakeFiles/ClionProject.dir/link.txt

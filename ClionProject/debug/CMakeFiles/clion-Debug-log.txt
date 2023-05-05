@@ -1,0 +1,4 @@
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/MinGW/bin/make.exe -DCMAKE_C_COMPILER=C:/MinGW/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/MinGW/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" -S C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject -B C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/debug

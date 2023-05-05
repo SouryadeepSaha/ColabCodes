@@ -128,6 +128,19 @@ ClionProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ClionProject.dir\build.make CMakeFiles/ClionProject.dir/build
 .PHONY : ClionProject/fast
 
+#=============================================================================
+# Target rules for targets named Source
+
+# Build rule for target.
+Source: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Source
+.PHONY : Source
+
+# fast build rule for target.
+Source/fast:
+	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/build
+.PHONY : Source/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +174,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ClionProject
+	@echo ... Source
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

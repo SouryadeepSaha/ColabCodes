@@ -1,0 +1,6 @@
+C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/debug/CMakeFiles/ClionProject.dir
+C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/debug/CMakeFiles/edit_cache.dir
+C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/debug/source/CMakeFiles/Source.dir
+C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/debug/source/CMakeFiles/edit_cache.dir
+C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/debug/source/CMakeFiles/rebuild_cache.dir
