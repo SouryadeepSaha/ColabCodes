@@ -1,2 +1,2 @@
-C:\MinGW\bin\ar.exe qc libSource.a 
+C:\MinGW\bin\ar.exe qc libSource.a CMakeFiles/Source.dir/Grid.cpp.obj CMakeFiles/Source.dir/Poisson_FD.cpp.obj CMakeFiles/Source.dir/Poisson_GMG.cpp.obj CMakeFiles/Source.dir/ProblemDesc.cpp.obj CMakeFiles/Source.dir/GMG_solver.cpp.obj
 C:\MinGW\bin\ranlib.exe libSource.a

@@ -11,10 +11,10 @@
 				<Option working_dir="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ClionProject">
@@ -33,10 +33,10 @@
 					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 ClionProject"/>
-					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 ClionProject"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ClionProject/fast">
@@ -55,30 +55,30 @@
 					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 ClionProject/fast"/>
-					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 ClionProject/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Source">
@@ -97,10 +97,10 @@
 					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 Source"/>
-					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 Source"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Source/fast">
@@ -119,10 +119,10 @@
 					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 Source/fast"/>
-					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 Source/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/final_build/source/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -132,10 +132,34 @@
 		<Unit filename="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/main.cpp">
 			<Option target="ClionProject"/>
 		</Unit>
+		<Unit filename="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/source/GMG_solver.cpp">
+			<Option target="Source"/>
+		</Unit>
+		<Unit filename="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/source/GMG_solver.h">
+			<Option target="Source"/>
+		</Unit>
+		<Unit filename="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/source/Grid.cpp">
+			<Option target="Source"/>
+		</Unit>
 		<Unit filename="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/source/Grid.h">
 			<Option target="Source"/>
 		</Unit>
+		<Unit filename="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/source/Poisson_FD.cpp">
+			<Option target="Source"/>
+		</Unit>
 		<Unit filename="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/source/Poisson_FD.h">
+			<Option target="Source"/>
+		</Unit>
+		<Unit filename="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/source/Poisson_GMG.cpp">
+			<Option target="Source"/>
+		</Unit>
+		<Unit filename="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/source/Poisson_GMG.h">
+			<Option target="Source"/>
+		</Unit>
+		<Unit filename="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/source/ProblemDesc.cpp">
+			<Option target="Source"/>
+		</Unit>
+		<Unit filename="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/source/ProblemDesc.h">
 			<Option target="Source"/>
 		</Unit>
 		<Unit filename="C:/Users/Saha/Documents/GitHub/ColabCodes/ClionProject/CMakeLists.txt">

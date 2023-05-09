@@ -102,7 +102,7 @@ CMakeFiles/ClionProject.dir/all: source/CMakeFiles/Source.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ClionProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ClionProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build\CMakeFiles 0
 .PHONY : CMakeFiles/ClionProject.dir/rule
@@ -123,12 +123,12 @@ CMakeFiles/ClionProject.dir/clean:
 source/CMakeFiles/Source.dir/all:
 	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/depend
 	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build\CMakeFiles --progress-num=3 "Built target Source"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build\CMakeFiles --progress-num=3,4,5 "Built target Source"
 .PHONY : source/CMakeFiles/Source.dir/all
 
 # Build rule for subdir invocation for target.
 source/CMakeFiles/Source.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/CMakeFiles/Source.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build\CMakeFiles 0
 .PHONY : source/CMakeFiles/Source.dir/rule

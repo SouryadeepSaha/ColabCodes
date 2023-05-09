@@ -129,6 +129,126 @@ Source/fast:
 	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/build
 .PHONY : Source/fast
 
+GMG_solver.obj: GMG_solver.cpp.obj
+.PHONY : GMG_solver.obj
+
+# target to build an object file
+GMG_solver.cpp.obj:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/GMG_solver.cpp.obj
+.PHONY : GMG_solver.cpp.obj
+
+GMG_solver.i: GMG_solver.cpp.i
+.PHONY : GMG_solver.i
+
+# target to preprocess a source file
+GMG_solver.cpp.i:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/GMG_solver.cpp.i
+.PHONY : GMG_solver.cpp.i
+
+GMG_solver.s: GMG_solver.cpp.s
+.PHONY : GMG_solver.s
+
+# target to generate assembly for a file
+GMG_solver.cpp.s:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/GMG_solver.cpp.s
+.PHONY : GMG_solver.cpp.s
+
+Grid.obj: Grid.cpp.obj
+.PHONY : Grid.obj
+
+# target to build an object file
+Grid.cpp.obj:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Grid.cpp.obj
+.PHONY : Grid.cpp.obj
+
+Grid.i: Grid.cpp.i
+.PHONY : Grid.i
+
+# target to preprocess a source file
+Grid.cpp.i:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Grid.cpp.i
+.PHONY : Grid.cpp.i
+
+Grid.s: Grid.cpp.s
+.PHONY : Grid.s
+
+# target to generate assembly for a file
+Grid.cpp.s:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Grid.cpp.s
+.PHONY : Grid.cpp.s
+
+Poisson_FD.obj: Poisson_FD.cpp.obj
+.PHONY : Poisson_FD.obj
+
+# target to build an object file
+Poisson_FD.cpp.obj:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Poisson_FD.cpp.obj
+.PHONY : Poisson_FD.cpp.obj
+
+Poisson_FD.i: Poisson_FD.cpp.i
+.PHONY : Poisson_FD.i
+
+# target to preprocess a source file
+Poisson_FD.cpp.i:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Poisson_FD.cpp.i
+.PHONY : Poisson_FD.cpp.i
+
+Poisson_FD.s: Poisson_FD.cpp.s
+.PHONY : Poisson_FD.s
+
+# target to generate assembly for a file
+Poisson_FD.cpp.s:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Poisson_FD.cpp.s
+.PHONY : Poisson_FD.cpp.s
+
+Poisson_GMG.obj: Poisson_GMG.cpp.obj
+.PHONY : Poisson_GMG.obj
+
+# target to build an object file
+Poisson_GMG.cpp.obj:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Poisson_GMG.cpp.obj
+.PHONY : Poisson_GMG.cpp.obj
+
+Poisson_GMG.i: Poisson_GMG.cpp.i
+.PHONY : Poisson_GMG.i
+
+# target to preprocess a source file
+Poisson_GMG.cpp.i:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Poisson_GMG.cpp.i
+.PHONY : Poisson_GMG.cpp.i
+
+Poisson_GMG.s: Poisson_GMG.cpp.s
+.PHONY : Poisson_GMG.s
+
+# target to generate assembly for a file
+Poisson_GMG.cpp.s:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Poisson_GMG.cpp.s
+.PHONY : Poisson_GMG.cpp.s
+
+ProblemDesc.obj: ProblemDesc.cpp.obj
+.PHONY : ProblemDesc.obj
+
+# target to build an object file
+ProblemDesc.cpp.obj:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/ProblemDesc.cpp.obj
+.PHONY : ProblemDesc.cpp.obj
+
+ProblemDesc.i: ProblemDesc.cpp.i
+.PHONY : ProblemDesc.i
+
+# target to preprocess a source file
+ProblemDesc.cpp.i:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/ProblemDesc.cpp.i
+.PHONY : ProblemDesc.cpp.i
+
+ProblemDesc.s: ProblemDesc.cpp.s
+.PHONY : ProblemDesc.s
+
+# target to generate assembly for a file
+ProblemDesc.cpp.s:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\default_build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/ProblemDesc.cpp.s
+.PHONY : ProblemDesc.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -138,6 +258,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Source
+	@echo ... GMG_solver.obj
+	@echo ... GMG_solver.i
+	@echo ... GMG_solver.s
+	@echo ... Grid.obj
+	@echo ... Grid.i
+	@echo ... Grid.s
+	@echo ... Poisson_FD.obj
+	@echo ... Poisson_FD.i
+	@echo ... Poisson_FD.s
+	@echo ... Poisson_GMG.obj
+	@echo ... Poisson_GMG.i
+	@echo ... Poisson_GMG.s
+	@echo ... ProblemDesc.obj
+	@echo ... ProblemDesc.i
+	@echo ... ProblemDesc.s
 .PHONY : help
 
 

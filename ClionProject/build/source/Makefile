@@ -129,6 +129,54 @@ Source/fast:
 	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/build
 .PHONY : Source/fast
 
+Grid.obj: Grid.cpp.obj
+.PHONY : Grid.obj
+
+# target to build an object file
+Grid.cpp.obj:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Grid.cpp.obj
+.PHONY : Grid.cpp.obj
+
+Grid.i: Grid.cpp.i
+.PHONY : Grid.i
+
+# target to preprocess a source file
+Grid.cpp.i:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Grid.cpp.i
+.PHONY : Grid.cpp.i
+
+Grid.s: Grid.cpp.s
+.PHONY : Grid.s
+
+# target to generate assembly for a file
+Grid.cpp.s:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Grid.cpp.s
+.PHONY : Grid.cpp.s
+
+Poisson_FD.obj: Poisson_FD.cpp.obj
+.PHONY : Poisson_FD.obj
+
+# target to build an object file
+Poisson_FD.cpp.obj:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Poisson_FD.cpp.obj
+.PHONY : Poisson_FD.cpp.obj
+
+Poisson_FD.i: Poisson_FD.cpp.i
+.PHONY : Poisson_FD.i
+
+# target to preprocess a source file
+Poisson_FD.cpp.i:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Poisson_FD.cpp.i
+.PHONY : Poisson_FD.cpp.i
+
+Poisson_FD.s: Poisson_FD.cpp.s
+.PHONY : Poisson_FD.s
+
+# target to generate assembly for a file
+Poisson_FD.cpp.s:
+	cd /d C:\Users\Saha\Documents\GitHub\ColabCodes\ClionProject\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Source.dir\build.make source/CMakeFiles/Source.dir/Poisson_FD.cpp.s
+.PHONY : Poisson_FD.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -138,6 +186,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Source
+	@echo ... Grid.obj
+	@echo ... Grid.i
+	@echo ... Grid.s
+	@echo ... Poisson_FD.obj
+	@echo ... Poisson_FD.i
+	@echo ... Poisson_FD.s
 .PHONY : help
 
 

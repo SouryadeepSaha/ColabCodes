@@ -5,23 +5,28 @@
 #ifndef POISSON_FD_H
 #define POISSON_FD_H
 #include "Grid.h"
+#include <cmath>
+#include <numbers>
 
 class Poisson_FD {
 
 
 public:
-    Poisson_FD(int N, int iterations, RealType range);
+    Poisson_FD(unsigned long N, int iterations, RealType range);
     void source_function();
     void source_function2();
     void boundary_conditions();
-    Grid* gauss_seidel(){return U;}
+    void boundary_conditions2();
+    void gauss_seidel();
+    Grid* get_Uh();
+    Grid* get_F();
 private:
-    int grid_pts{};
+    unsigned long grid_pts{};
     double h{};
     int iter;
     Grid* f;
     Grid* u_h;
-    Grid* g;
+//    Grid* g;
 
 };
 
