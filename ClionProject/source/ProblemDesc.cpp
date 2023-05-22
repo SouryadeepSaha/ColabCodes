@@ -26,7 +26,7 @@ Grid* ProblemDesc::source_function2(Grid *f, double h) {
     return f;
 }
 
-Grid* ProblemDesc::boundary_conditionsDR(Grid *u_h, Grid *g,double h) {
+Grid* ProblemDesc::boundary_conditionsDR(Grid *u_h, Grid *g) {
     unsigned long row = u_h->get_nrow();
     unsigned long col = u_h->get_ncol();
     for (unsigned long y = 0; y < row; y++) {
@@ -54,4 +54,16 @@ Grid* ProblemDesc::boundary_conditionsNM(Grid *u_h, double h) {
         u_h->set_val(row-1,x,u_h->get_val(row-2,x));
     }
     return u_h;
+}
+
+Grid* ProblemDesc::exactSolution(unsigned long nrows, unsigned long ncols, double h) {
+    auto u_exact = new Grid(nrows,ncols);
+    for (unsigned long y = 0; y < nrows; y++) {
+        for (unsigned long x = 0; x < ncols; x++) {
+//            u_exact->set_val(y, x, sin(std::numbers::pi * x * h)*\
+//                     sinh(std::numbers::pi * y * h)/sinh(std::numbers::pi));
+            u_exact->set_val(y, x, cos(std::numbers::pi * x * h) * cos(std::numbers::pi * y * h));
+        }
+    }
+    return u_exact;
 }

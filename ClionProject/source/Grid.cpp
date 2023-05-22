@@ -1,20 +1,26 @@
 #include "Grid.h"
 
 Grid::Grid(unsigned long rows, unsigned long cols): row(rows),col(cols){
-    grid = std::vector<RealType>(row*col,0);
+    grid = std::vector<RealType>(row*col,0.0);
+
+    //  grid = new RealType[row*col];
 }
-RealType Grid::get_val(unsigned long  r, unsigned long  c){
-    return grid.at(r+this->col*c);
-}
-void Grid::set_val(unsigned long  r, unsigned long  c, RealType value){
-    grid.at(r+this->col*c) = value;
+Grid::Grid(unsigned long rows, unsigned long cols, RealType value): row(rows),col(cols){
+    grid = std::vector<RealType>(row*col,value);
 }
 
-RealType Grid::get_val_T(unsigned long r, unsigned long c){
-    return grid.at(r*this->row+c);
-}
-void Grid::set_val_T(unsigned long r, unsigned long c, RealType value){
-    grid.at(r*this->row+c) = value;
+double Grid::L2norm() {
+    /***
+     * Return L2 norm squared for the grid.
+     */
+    RealType norm2 = 0.0;
+    for (unsigned long i = 0; i < row; ++i) {
+        for (unsigned long j = 0; j < col; ++j) {
+            double val = this->get_val(i,j);
+            norm2 +=val*val;
+        }
+    }
+    return norm2;
 }
 void Grid::saveGrid(const std::string& filename, std::ofstream& data) {
     data.open(filename, std::ios::out);

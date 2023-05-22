@@ -14,8 +14,9 @@ public:
     static Grid* source_function(Grid *f, double h);
     static Grid* source_function2(Grid *f, double h);
     static Grid* boundary_conditions(Grid *u_h, double h) ;
-    static Grid* boundary_conditionsDR(Grid *u_h,Grid *g, double h);
+    static Grid* boundary_conditionsDR(Grid *u_h,Grid *g);
     static Grid* boundary_conditionsNM(Grid *u_h, double h);
+    static Grid* exactSolution(unsigned long nrows, unsigned long ncols, double h);
 
 
 };
